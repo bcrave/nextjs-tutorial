@@ -1,18 +1,15 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 
-import Link from "next/link";
-
-const Home = () => {
+const About = () => {
   return (
     <>
       <Head>
-        <title>Ninja List | Home</title>
+        <title>Ninja List | About</title>
         <meta name="keywords" content="ninjas" />
       </Head>
-      <section>
-        <h1 className={styles.title}>Homepage</h1>
-        <p className={styles.text}>
+      <section className="about">
+        <h1>About</h1>
+        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
           optio quos eum officiis maxime, sed iusto fugit perferendis id in
           reprehenderit expedita facere voluptates nemo quod repellendus
@@ -20,7 +17,7 @@ const Home = () => {
           quibusdam iure. Nobis quae aut facere aperiam dicta perferendis,
           tenetur, at similique sint consequuntur ab!
         </p>
-        <p className={styles.text}>
+        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
           optio quos eum officiis maxime, sed iusto fugit perferendis id in
           reprehenderit expedita facere voluptates nemo quod repellendus
@@ -28,12 +25,9 @@ const Home = () => {
           quibusdam iure. Nobis quae aut facere aperiam dicta perferendis,
           tenetur, at similique sint consequuntur ab!
         </p>
-        <Link href="/ninjas">
-          <button className={styles.btn}>See Ninja Listing</button>
-        </Link>
       </section>
     </>
   );
 };
 
-export default Home;
+export default About;
