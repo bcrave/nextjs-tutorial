@@ -16,6 +16,7 @@
   color: white;
   text-align: center;
   border: 0;
+  cursor: pointer;
 }
 
 .btn:active {
